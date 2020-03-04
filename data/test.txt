@@ -1,0 +1,1 @@
+In computing, a hash table (hash map) is a data structure that implements an associative array 

@@ -1,0 +1,23 @@
+- What knowledge do human beings have that is NOT captured by this language model
+and that therefore causes the model to generate nonsense. Write down at least three
+facts that, if the computer could somehow know them, would allow it to generate more sensible language.
+
+Humans speak everyday and understand words through context, and given rules such as grammar.
+For the computer to be able to make sensible poems, it would have to know grammar rules, understand
+punctuation (which for this project all was taken out), and it would need to be given more information
+than just the words that follow a specific word and their frequency. It would need a way to check if the
+word is being used in a different way than it is after other words. For example, the word dark can be used
+to describe a type of chocolate, or it can be used to describe the opposite of light. These are two different
+uses of the same word that the computer would need to understand to properly use the word.
+
+- Compare the different poems. If your experience is like mine, some will be more coherent than others.
+ Speculate about why this is true.
+
+ The poems that make more sense than others are the poems that have very few words on the follow list.
+ When a word has many different choices of words on the follow list, there is a greater chance that the
+ next word selected will be completely out of context from the reason the previous word was used.
+ This is why the test.txt file was readable, because it has very few repeat words so most of the time,
+ the only choice for the next word was the one that was actually used in the poem.
+ A poem could also be very readable if the frequency of a certain follow word was much higher than that
+ of all the other words that follow. We could see this with green.txt as the word "I" almost always followed
+ "sam", so the percentage of "I" following "sam" in our new version of the poem was great.
